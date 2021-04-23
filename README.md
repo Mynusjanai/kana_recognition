@@ -50,6 +50,7 @@ After modeling each writing system, and experimenting with various parameters an
 
 # Repository Structure
 ```
+├── data
 ├── img
 ├── logs
 ├── models
