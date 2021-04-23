@@ -22,7 +22,7 @@ The same was done for each separate writing system. In total 2 datasets were use
 
 # Feature Engineering
 The data was resized to 48x48 pixels for our CNN model to read over. A Tensorflow ImageDataGenerator filter was put over the images at random to create variability in our data. 
-This was done to enhance our variety in the dataset (although different handwriting styles have already done this to an extent for us), and to reduce the chance of our model overfitting.
+This was done to enhance our variety in the dataset (although different handwriting styles have already done this to an extent for us), and to reduce the chance of our model overfitting.<br>
 ![ImageDataGenerator](./img/ImageDataGenerator.png)<br><br>
 
 # Modeling & Results
@@ -32,7 +32,7 @@ Our final dataset sizes for modeling were:
 * Kanji: 97,776 images (training & validation)
 * Katakana: 51,924 images (training & validation)<br><br>
 
-After modeling each writing system, and experimenting with various parameters and hyperparameters, our results were as below:
+After modeling each writing system, and experimenting with various parameters and hyperparameters, our results were as below:<br>
 ![Model_Summary](./img/model_results.png)
 <br><br>
 
@@ -44,13 +44,12 @@ After modeling each writing system, and experimenting with various parameters an
 * Expand model for touchscreen API integration for language education (iOS app) <br><br>
 
 # References
-* ELTCDB Data Set -- http://etlcdb.db.aist.go.jp/ <br>
+* ELTCDB Data Set -- http://etlcdb.db.aist.go.jp/<br>
 * AIST -- http://www.aist.go.jp/index_e.html <br>
 * JEITA -- http://www.jeita.or.jp/english/<br><br>
 
 # Repository Structure
 ```
-├── data
 ├── img
 ├── logs
 ├── models
