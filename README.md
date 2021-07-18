@@ -14,7 +14,7 @@ The data is from the National Institute of Advanced Industrial Science and Techn
 <br><br>
 
 # Data Cleaning & EDA
-The data was read in from binary, sorted and then saved to an npz file for further access and to model upon. Once done and training labels were created, the data images were able to be rendered for inspection. <br>
+The data was read in from binary, sorted, and then saved to a .npz file for further access and to model upon. Once done and training labels were created, the data images were able to be rendered for inspection. <br>
 ![hiragana_table](./img/hiragana_table.png)<br>
 
 The same was done for each separate writing system. In total 2 datasets were used, as hiragana and a subset of the kanji dataset was put together into 1 by AIST. <br>
@@ -26,7 +26,7 @@ This was done to enhance our variety in the dataset (although different handwrit
 ![ImageDataGenerator](./img/ImageDataGenerator.png)<br><br>
 
 # Modeling & Results
-After our EDA and feature engineering we were ready to begin our modeling the process. Below is a summary of results from the three CNN models that were run for each writing system.
+After our EDA and feature engineering, we were ready to begin our modeling process. Below is a summary of results from the three CNN models that were run for each writing system.
 Our final dataset sizes for modeling were:
 * Hiragana: 9,088 images (training & validation)
 * Kanji: 97,776 images (training & validation)
@@ -40,7 +40,7 @@ After modeling each writing system, and experimenting with various parameters an
 * Fine tune model params for kanji model to achieve higher accuracy
 * Further dive into Tensorboard to view for live modeling (did post model in this notebook)
 * Implement cloud-based modeling using other model techniques. Running in the cloud on multiple GPUs will speed up production time and lessen the strain on my work rig
-* Combine datasets in the future to work on an image classification model that can identify the type of character (hiragana, katakana, kanji, romanji, numerals) for capstone
+* Combine datasets in the future to work on an image classification model that can identify the type of character (hiragana, katakana, kanji, romaji, numerals) for capstone
 * Expand model for touchscreen API integration for language education (iOS app) <br><br>
 
 # References
